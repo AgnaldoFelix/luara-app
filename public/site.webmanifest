@@ -1,0 +1,22 @@
+{
+  "name": "Luara — Consultoria em Amamentação",
+  "short_name": "Luara",
+  "description": "Acolhimento e orientação individualizada para uma amamentação mais segura e leve.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f1ea",
+  "theme_color": "#f7f1ea",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/brand/luara-mark.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
