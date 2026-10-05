@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import { site, navLinks } from "@/data/site";
+import { site, navLinks, waLink } from "@/data/site";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -42,7 +42,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href={site.whatsappUrl}
+            href={waLink()}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
@@ -83,7 +83,7 @@ export function Header() {
             ))}
             <li className="pt-3">
               <a
-                href={site.whatsappUrl}
+                href={waLink()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block rounded-full bg-primary px-5 py-3 text-center text-sm font-semibold text-primary-foreground"

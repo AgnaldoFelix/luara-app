@@ -1,5 +1,5 @@
 import { Instagram, MessageCircle } from "lucide-react";
-import { site, navLinks } from "@/data/site";
+import { site, navLinks, waLink } from "@/data/site";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -40,7 +40,7 @@ export function Footer() {
               <Instagram size={17} aria-hidden="true" />
             </a>
             <a
-              href={site.whatsappUrl}
+              href={waLink()}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp da Luara"

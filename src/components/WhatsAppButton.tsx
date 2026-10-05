@@ -1,11 +1,11 @@
 import { MessageCircle } from "lucide-react";
-import { site } from "@/data/site";
+import { site, waLink } from "@/data/site";
 
 /** Botão flutuante discreto de WhatsApp — link configurável em src/data/site.ts */
 export function WhatsAppButton() {
   return (
     <a
-      href={site.whatsappUrl}
+      href={waLink()}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Conversar com a Luara pelo WhatsApp"

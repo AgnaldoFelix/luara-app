@@ -13,7 +13,8 @@ export const site = {
   tagline: "Amamentação com acolhimento, informação e cuidado.",
 
   // ⚠️ SUBSTITUIR pelos links reais da Luara
-  whatsappUrl: "https://wa.me/5500000000000?text=Ol%C3%A1%2C%20Luara!%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20amamenta%C3%A7%C3%A3o.",
+  whatsappNumber: "5579996848609",
+  whatsappMessage: "Olá, Luara! Vim pelo seu Instagram e gostaria de conversar sobre amamentação.",
   instagramUrl: "https://instagram.com/INSERIR_USUARIO",
 
   hero: {
@@ -190,6 +191,11 @@ export const site = {
     secondaryCta: "Instagram",
   },
 } as const;
+
+/** Gera link genérico do WhatsApp (wa.me) com mensagem pronta. */
+export function waLink(message: string = site.whatsappMessage) {
+  return `https://wa.me/${site.whatsappNumber}?text=${encodeURIComponent(message)}`;
+}
 
 export const navLinks = [
   { label: "Início", href: "#inicio" },
