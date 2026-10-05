@@ -7,7 +7,7 @@ import {
   Flower2,
   type LucideIcon,
 } from "lucide-react";
-import { site } from "@/data/site";
+import { site, waLink } from "@/data/site";
 import { Reveal } from "./Reveal";
 
 const icons: Record<string, LucideIcon> = {
