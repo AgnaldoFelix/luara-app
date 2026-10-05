@@ -53,6 +53,7 @@ function Index() {
         <FinalCta />
       </main>
       <Footer />
+      <div className="h-24 sm:hidden" aria-hidden="true" />
       <WhatsAppButton />
     </div>
   );

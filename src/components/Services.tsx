@@ -37,17 +37,25 @@ export function Services() {
             const Icon = icons[service.icon] ?? Flower2;
             return (
               <Reveal key={service.title} delay={i * 80}>
-                <article className="group h-full rounded-3xl border border-border bg-card p-7 transition-colors hover:border-sage/50 hover:bg-accent/30">
+                <a
+                  href={waLink(`Olá, Luara! Vim pelo seu site e gostaria de ajuda com: ${service.title}.`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex h-full flex-col rounded-3xl border border-border bg-card p-7 transition-colors hover:border-sage/50 hover:bg-accent/30 active:scale-[0.99]"
+                >
                   <div className="flex h-11 w-11 items-center justify-center rounded-full bg-accent text-accent-foreground transition-colors group-hover:bg-sage group-hover:text-sage-foreground">
                     <Icon size={20} strokeWidth={1.6} aria-hidden="true" />
                   </div>
                   <h3 className="mt-5 font-serif text-xl text-foreground">
                     {service.title}
                   </h3>
-                  <p className="mt-2.5 text-sm leading-relaxed text-muted-foreground">
+                  <p className="mt-2.5 flex-1 text-sm leading-relaxed text-muted-foreground">
                     {service.description}
                   </p>
-                </article>
+                  <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-sage-foreground">
+                    Falar sobre isso no WhatsApp →
+                  </span>
+                </a>
               </Reveal>
             );
           })}
