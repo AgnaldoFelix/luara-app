@@ -1,5 +1,5 @@
 import { Instagram } from "lucide-react";
-import { site } from "@/data/site";
+import { site, waLink } from "@/data/site";
 import { Reveal } from "./Reveal";
 
 export function FinalCta() {
@@ -24,7 +24,7 @@ export function FinalCta() {
         <Reveal delay={220}>
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
-              href={site.whatsappUrl}
+              href={waLink()}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-background px-7 py-3.5 text-sm font-semibold text-foreground transition-all hover:opacity-90 hover:shadow-lg"

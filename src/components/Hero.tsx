@@ -1,4 +1,4 @@
-import { site } from "@/data/site";
+import { site, waLink } from "@/data/site";
 import { PhotoPlaceholder } from "./PhotoPlaceholder";
 import { Reveal } from "./Reveal";
 
@@ -30,7 +30,7 @@ export function Hero() {
           <Reveal delay={300}>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
-                href={site.whatsappUrl}
+                href={waLink()}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-all hover:opacity-90 hover:shadow-lg"

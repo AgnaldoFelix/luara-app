@@ -1,4 +1,4 @@
-import { site } from "@/data/site";
+import { site, waLink } from "@/data/site";
 import { Reveal } from "./Reveal";
 
 export function Identification() {
@@ -34,7 +34,7 @@ export function Identification() {
         </Reveal>
         <Reveal delay={300}>
           <a
-            href={site.whatsappUrl}
+            href={waLink()}
             target="_blank"
             rel="noopener noreferrer"
             className="mt-8 inline-flex items-center justify-center rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition-all hover:opacity-90 hover:shadow-lg"
