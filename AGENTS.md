@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep client-facing content in `src/data/site.ts` and reference uploaded photography through Lovable Assets JSON pointers so information stays centralized and media stays outside source control.

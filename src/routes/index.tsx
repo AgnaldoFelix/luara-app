@@ -14,20 +14,20 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Luara | Amamentação com acolhimento e informação" },
+      { title: "Luara | Consultoria em amamentação em Aracaju e online" },
       {
         name: "description",
         content:
-          "Orientação e acolhimento para mães que desejam viver a amamentação com mais segurança e informação.",
+          "Luara, enfermeira e consultora em amamentação. Atendimento domiciliar em Aracaju e Grande Aracaju e online para diferentes regiões do Brasil. Converse pelo WhatsApp.",
       },
       {
         property: "og:title",
-        content: "Luara | Amamentação com acolhimento e informação",
+        content: "Luara | Consultoria em amamentação em Aracaju e online",
       },
       {
         property: "og:description",
         content:
-          "Orientação e acolhimento para mães que desejam viver a amamentação com mais segurança e informação.",
+          "Luara, enfermeira e consultora em amamentação. Atendimento domiciliar em Aracaju e Grande Aracaju e online para diferentes regiões do Brasil. Converse pelo WhatsApp.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },

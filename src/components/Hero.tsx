@@ -1,5 +1,5 @@
 import { site, waLink } from "@/data/site";
-import { PhotoPlaceholder } from "./PhotoPlaceholder";
+import luaraPhoto from "@/assets/luara-enfermeira.png.asset.json";
 import { Reveal } from "./Reveal";
 
 export function Hero() {
@@ -48,16 +48,19 @@ export function Hero() {
         </div>
 
         <Reveal delay={200} className="relative">
-          {/* Moldura orgânica — substituir pela foto real da Luara */}
+          {/* Fotografia real da Luara */}
           <div className="relative mx-auto max-w-md lg:max-w-none">
             <div
               aria-hidden="true"
               className="absolute -left-4 -top-4 h-full w-full rounded-[2.5rem] border border-sage/40"
             />
-            <PhotoPlaceholder
-              label="Foto da Luara — substituir pela fotografia real"
-              aspect="4/5"
-              className="rounded-[2.5rem]"
+            <img
+              src={luaraPhoto.url}
+              alt="Luara, enfermeira e consultora em amamentação, com materiais de apoio ao atendimento"
+              width={768}
+              height={1154}
+              fetchPriority="high"
+              className="aspect-[4/5] w-full rounded-[2.5rem] object-cover object-top"
             />
           </div>
         </Reveal>

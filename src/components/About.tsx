@@ -1,5 +1,5 @@
 import { site } from "@/data/site";
-import { PhotoPlaceholder } from "./PhotoPlaceholder";
+import luaraPhoto from "@/assets/luara-enfermeira.png.asset.json";
 import { Reveal } from "./Reveal";
 
 export function About() {
@@ -8,10 +8,13 @@ export function About() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-20">
         <Reveal className="order-2 lg:order-1">
           <div className="relative mx-auto max-w-sm lg:max-w-none">
-            <PhotoPlaceholder
-              label="Foto da seção Sobre — substituir pela fotografia real"
-              aspect="3/4"
-              className="rounded-[2rem]"
+            <img
+              src={luaraPhoto.url}
+              alt="Luara com seu jaleco de enfermeira e materiais de orientação para amamentação"
+              width={768}
+              height={1154}
+              loading="lazy"
+              className="aspect-[3/4] w-full rounded-[2rem] object-cover object-top"
             />
           </div>
         </Reveal>
