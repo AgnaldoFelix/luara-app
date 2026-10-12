@@ -12,10 +12,9 @@ export const site = {
   name: "Luara",
   tagline: "Amamentação com acolhimento, informação e cuidado.",
 
-  // ⚠️ SUBSTITUIR pelos links reais da Luara
   whatsappNumber: "5579996848609",
   whatsappMessage: "Olá, Luara! Vim pelo seu Instagram e gostaria de conversar sobre amamentação.",
-  instagramUrl: "https://instagram.com/INSERIR_USUARIO",
+  instagramUrl: "https://www.instagram.com/luara.amamentacao/",
 
   hero: {
     eyebrow: "Amamentação com acolhimento e informação",
@@ -28,16 +27,19 @@ export const site = {
 
   about: {
     title: "Prazer, eu sou a Luara.",
-    // ⚠️ Texto de apresentação — ajustar com a história real da Luara.
     paragraphs: [
-      "Acredito que amamentar é um processo que se aprende — e que nenhuma mãe deveria precisar atravessá-lo sem apoio. Meu trabalho é caminhar ao seu lado, com informação confiável e um olhar atento para o que você e seu bebê estão vivendo.",
-      "Cada atendimento é individualizado, sem fórmulas prontas e sem julgamentos. O objetivo é que você se sinta segura, informada e acolhida em cada etapa.",
+      "Sou enfermeira pela Universidade Estácio de Sergipe e consultora em amamentação pela Liga Maternar. Sou também a criadora da Conexão Amamentar, com foco na saúde materno-infantil, na amamentação e nos cuidados no pós-parto.",
+      "Tenho mais de 5 anos de experiência na área de pediatria e experiência profissional na Rede D’Or – Hospital São Lucas, nas áreas de oncologia e hematologia.",
+      "Atendo gestantes e mães em domicílio, em Aracaju e na Grande Aracaju, e por videochamada para diferentes regiões do Brasil. Cada atendimento considera as necessidades de cada mãe e bebê.",
     ],
-    // ⚠️ PREENCHER com as informações reais (não inventar)
     credentials: [
-      "[INSERIR FORMAÇÃO]",
-      "[INSERIR EXPERIÊNCIA]",
-      "[INSERIR ESPECIALIZAÇÕES]",
+      "Enfermeira — Universidade Estácio de Sergipe · Aracaju/SE · 2025",
+      "Consultora em Amamentação — Liga Maternar · 2025",
+      "Criadora da Conexão Amamentar",
+      "Habilitação em Furo Humanizado",
+      "Capacitação em cuidados com o pós-parto",
+      "Capacitação em Fotobiomodulação (Laserterapia)",
+      "Capacitação em Kinesio Taping como terapia complementar",
     ],
   },
 
@@ -169,12 +171,12 @@ export const site = {
       {
         question: "Como funciona o atendimento?",
         answer:
-          "[INSERIR DESCRIÇÃO DO ATENDIMENTO — duração, formato e o que está incluído]",
+          "Realizo atendimentos presenciais domiciliares e online, com foco na saúde materno-infantil, amamentação e cuidados no pós-parto. Os atendimentos são realizados mediante agendamento, e a duração varia conforme o serviço contratado e as necessidades de cada mãe e bebê. Pelo WhatsApp, conversamos sobre o que você precisa e combinamos o atendimento.",
       },
       {
         question: "O atendimento é presencial ou online?",
         answer:
-          "[INSERIR FORMATO — presencial, online ou ambos, e região de atendimento]",
+          "Ofereço as duas modalidades. O atendimento presencial é realizado em domicílio, em Aracaju-SE e na região da Grande Aracaju, mediante agendamento. O atendimento online acontece por videochamada, para acompanhar e orientar gestantes e mães de diferentes regiões do Brasil.",
       },
       {
         question: "Como faço para agendar?",
