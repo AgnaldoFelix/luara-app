@@ -129,22 +129,37 @@ export const site = {
     ],
   },
 
-  // ⚠️ NÃO inventar depoimentos. Substituir apenas por depoimentos reais,
-  // com autorização da cliente. Se não houver, a seção pode ser removida.
+  // ✅ Depoimentos REAIS, autorizados pelas clientes (extraídos de conversas no WhatsApp/stories).
   testimonials: {
     title: "Histórias de quem já passou por aqui",
     items: [
       {
-        text: "[DEPOIMENTO REAL DA CLIENTE]",
-        author: "[NOME OU INICIAIS — SOMENTE SE HOUVER AUTORIZAÇÃO]",
+        text: "A consultoria mudou em 100% minha amamentação e me livrou de não poder amamentar por causa de uma mastite. Toda dor que eu achava que era normal foi embora, minha neném começou a dormir ainda melhor porque começou a mamar a quantidade que realmente precisava. Em 5 dias eu vi um resultado que eu levei meses para ver na primeira gestação. Não tenho palavras para agradecer, não somente pelos serviços, mas pela excelência com a qual você presta esses serviços.",
+        author: "Rosânny Souza",
       },
       {
-        text: "[DEPOIMENTO REAL DA CLIENTE]",
-        author: "[NOME OU INICIAIS — SOMENTE SE HOUVER AUTORIZAÇÃO]",
+        text: "Sobre amamentação não tenho nem palavras, de verdade: você salvou o início da minha maternidade, e muito rápido. Hoje eu tenho a praticidade de só colocar ela no peito — antes eu tinha que ordenhar, colocar na mamadeira e ofertar pra ela ou dar a fórmula. Dou o peito dela em qualquer lugar, sem estresse, e as madrugadas estão menos exaustivas também. É só gratidão.",
+        author: "Clara",
       },
       {
-        text: "[DEPOIMENTO REAL DA CLIENTE]",
-        author: "[NOME OU INICIAIS — SOMENTE SE HOUVER AUTORIZAÇÃO]",
+        text: "O taping fez uma diferença enorme pra mim: ajudou demais no inchaço e na retenção e, principalmente, naquela sensação de que os órgãos estão 'soltos', que eu sofri muito na minha outra cesárea. Dessa vez me senti muito mais segura e sustentada, e isso trouxe um alívio enorme. Esse acompanhamento faz a gente se sentir acolhida num momento tão sensível. Hoje em dia é raro encontrar profissionais tão humanos como você!",
+        author: "Jéssica Bispo",
+      },
+      {
+        text: "Que resultado incrível pós aplicação de taping! Além de ter me dado segurança e autonomia para conseguir executar minhas atividades pós cesárea, ainda devolveu autoestima. Seu cuidado, atenção e profissionalismo foram ímpares! Sem dúvida fez toda a diferença em minha recuperação!",
+        author: "Rafaela",
+      },
+      {
+        text: "Meu bebê engordou 2,5kg em um mês e já está com 5,450kg, só com aleitamento materno exclusivo. Estou muito feliz! Apresentar dificuldades no início da amamentação não é o desfecho final — confiem no processo e acreditem em vocês!",
+        author: "Mayara Rodrigues",
+      },
+      {
+        text: "Todo mundo me pergunta se não tenho medo de dar banho no Pedro. Mas, graças à consultoria que fiz com você, consigo dar o banho super tranquila. Foi fundamental!",
+        author: "Mamãe do Pedro",
+      },
+      {
+        text: "Passando só pra dar notícias: o Matheus tá ganhando peso direitinho e crescendo bem — na marca de 36g por dia nos últimos 15 dias!",
+        author: "Jéssica Brenda",
       },
     ],
   },
