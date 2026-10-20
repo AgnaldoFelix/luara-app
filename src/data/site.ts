@@ -12,7 +12,7 @@ export const site = {
   name: "Luara",
   tagline: "Amamentação com acolhimento, informação e cuidado.",
 
-  whatsappNumber: "5579996848609",
+  whatsappNumber: "5579981413894",
   whatsappMessage: "Olá, Luara! Vim pelo seu Instagram e gostaria de conversar sobre amamentação.",
   instagramUrl: "https://www.instagram.com/luara.amamentacao/",
 
