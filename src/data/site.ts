@@ -8,8 +8,14 @@
  * ============================================================
  */
 
+import luaraPhoto from "@/assets/luara-enfermeira.png.asset.json";
+
 export const site = {
   name: "Luara",
+  photoUrl: new URL(
+    luaraPhoto.url,
+    "https://id-preview--7efcf692-7f94-481a-bc61-aff35e0d0a95.lovable.app",
+  ).href,
   tagline: "Amamentação com acolhimento, informação e cuidado.",
 
   whatsappNumber: "5579981413894",

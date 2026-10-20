@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep client-facing content in `src/data/site.ts` and reference uploaded photography through Lovable Assets JSON pointers so information stays centralized and media stays outside source control.
+- Resolve photography pointer URLs to the verified public Lovable asset-serving origin in `src/data/site.ts`, and reuse that absolute URL in components and leaf image metadata so external hosts do not request Lovable-only asset paths from their own origin.

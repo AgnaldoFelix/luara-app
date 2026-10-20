@@ -1,5 +1,4 @@
 import { site, waLink } from "@/data/site";
-import luaraPhoto from "@/assets/luara-enfermeira.png.asset.json";
 import { Reveal } from "./Reveal";
 
 export function Hero() {
@@ -55,7 +54,7 @@ export function Hero() {
               className="absolute -left-4 -top-4 h-full w-full rounded-[2.5rem] border border-sage/40"
             />
             <img
-              src={luaraPhoto.url}
+              src={site.photoUrl}
               alt="Luara, enfermeira e consultora em amamentação, com materiais de apoio ao atendimento"
               width={768}
               height={1154}

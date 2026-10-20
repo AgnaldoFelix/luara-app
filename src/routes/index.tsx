@@ -10,6 +10,7 @@ import { Faq } from "@/components/Faq";
 import { FinalCta } from "@/components/FinalCta";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
+import { site } from "@/data/site";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -30,6 +31,8 @@ export const Route = createFileRoute("/")({
           "Luara, enfermeira e consultora em amamentação. Atendimento domiciliar em Aracaju e Grande Aracaju e online para diferentes regiões do Brasil. Converse pelo WhatsApp.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: site.photoUrl },
+      { name: "twitter:image", content: site.photoUrl },
       { property: "og:url", content: "/" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
