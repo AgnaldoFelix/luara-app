@@ -1,5 +1,4 @@
 import { site } from "@/data/site";
-import luaraPhoto from "@/assets/luara-enfermeira.png.asset.json";
 import { Reveal } from "./Reveal";
 
 export function About() {
@@ -9,7 +8,7 @@ export function About() {
         <Reveal className="order-2 lg:order-1">
           <div className="relative mx-auto max-w-sm lg:max-w-none">
             <img
-              src={luaraPhoto.url}
+              src={site.photoUrl}
               alt="Luara com seu jaleco de enfermeira e materiais de orientação para amamentação"
               width={768}
               height={1154}

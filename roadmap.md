@@ -4,3 +4,4 @@
 - [x] Atualizar informações e dúvidas sobre atendimento presencial e online.
 - [x] Conferir foto, links e leitura das informações no site.
 - [x] Incluir depoimentos reais autorizados (7 clientes).
+- [x] Usar endereço absoluto da foto para compatibilidade com a hospedagem na Vercel.
