@@ -1,4 +1,4 @@
-import { Instagram, MessageCircle } from "lucide-react";
+import { Instagram, Linkedin, MessageCircle } from "lucide-react";
 import { site, navLinks, waLink } from "@/data/site";
 
 export function Footer() {
@@ -51,19 +51,22 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col items-center gap-2 border-t border-border pt-6 text-center text-xs text-muted-foreground sm:flex-row sm:justify-between sm:text-left">
+        <div className="mt-10 flex flex-col items-center gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:justify-between sm:text-left">
           <p>© {year} {site.name}. Todos os direitos reservados.</p>
-          <p>
-            Site criado por{" "}
-            <a
-              href={site.credit.linkedinUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground/80 underline-offset-4 transition-colors hover:text-foreground hover:underline"
-            >
-              {site.credit.name}
-            </a>
-          </p>
+          <a
+            href={site.credit.linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Site criado por Agnaldo Felix — LinkedIn"
+            className="group inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-foreground/80 transition-colors hover:border-foreground/30 hover:text-foreground"
+          >
+            <Linkedin
+              size={15}
+              aria-hidden="true"
+              className="text-muted-foreground transition-colors group-hover:text-foreground"
+            />
+            Site criado por {site.credit.name}
+          </a>
         </div>
       </div>
     </footer>
