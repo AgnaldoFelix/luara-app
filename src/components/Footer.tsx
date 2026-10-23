@@ -51,9 +51,20 @@ export function Footer() {
           </div>
         </div>
 
-        <p className="mt-10 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-          © {year} {site.name}. Todos os direitos reservados.
-        </p>
+        <div className="mt-10 flex flex-col items-center gap-2 border-t border-border pt-6 text-center text-xs text-muted-foreground sm:flex-row sm:justify-between sm:text-left">
+          <p>© {year} {site.name}. Todos os direitos reservados.</p>
+          <p>
+            Site criado por{" "}
+            <a
+              href={site.credit.linkedinUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground/80 underline-offset-4 transition-colors hover:text-foreground hover:underline"
+            >
+              {site.credit.name}
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
