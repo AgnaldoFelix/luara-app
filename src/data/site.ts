@@ -213,6 +213,12 @@ export const site = {
     primaryCta: "Quero falar com a Luara",
     secondaryCta: "Instagram",
   },
+
+  // Crédito discreto de quem criou o site (aparece no rodapé).
+  credit: {
+    name: "Agnaldo Felix",
+    linkedinUrl: "https://www.linkedin.com/in/agnaldofelix/",
+  },
 } as const;
 
 /** Gera link genérico do WhatsApp (wa.me) com mensagem pronta. */
